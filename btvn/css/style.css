@@ -1,0 +1,53 @@
+body{
+	background: #FFFFFF;
+}
+.glyphicon{
+	font-size: 1em;
+}
+.container{
+	width: 900px;
+}
+/*header*/
+.nav a{
+	text-transform: uppercase;
+	color:white;
+}
+ul li{
+	padding-top: 10px
+}
+.menu{
+	padding: 0px 200px;
+	text-align: center;
+}
+/*contenr*/
+.one,.one h1 {
+	padding: 50px;
+}
+.space{
+	padding-bottom: 50px;
+}
+.col-one img{
+	/*height: 200px;*/
+	width: 250px;
+}
+.tow{
+	background: url("../image/main/banner1.jpg");
+	background-size: cover;
+}
+.tow h1{
+	padding: 120px 0px;
+	color: white;
+}
+.there {
+	padding: 50px 0px;
+	border-bottom: 1px solid ;
+}
+.there .row img{
+	width: 300px;
+}
+.there img{
+	padding: 8px 8px;
+}
+.four{
+	padding: 50px 0px;
+}
