@@ -4,9 +4,6 @@ body{
 .glyphicon{
 	font-size: 1em;
 }
-.width{
-	width: 900px;
-}
 .container{
 	width: 900px;
 }
@@ -24,7 +21,7 @@ ul li{
 }
 /*contenr*/
 .one,.one h1 {
-	padding: 50px 0px;
+	padding: 50px;
 }
 .space{
 	padding-bottom: 50px;
@@ -34,7 +31,6 @@ ul li{
 	width: 250px;
 }
 .tow{
-	margin: 50px 0px;
 	background: url("../image/main/banner1.jpg");
 	background-size: cover;
 }
@@ -54,40 +50,4 @@ ul li{
 }
 .four{
 	padding: 50px 0px;
-}
-.four img{
-	float: left;
-	padding: 0px;
-	margin: 5px;
-	border: 1px solid;
-}
-.four img:hover{
-	background: #B46D70;
-}
-.five{
-	padding: 50px 0px;
-	background:url("../image/main/banner2.jpg");
-	background-size: cover;
-}
-.six{
-	padding: 50px 0px;
-}
-.six img{
-	width: 250px;
-}
-footer{
-	padding-top: 50px;
-	background: url("../image/footer/footer.jpg");
-	height: 300px;
-}
-footer img:hover{
-	background: #B46D70;
-}
-footer #top{
-	height: 100px;
-}
-footer #footer{
-	height: 200px;
-	padding-top: 20px;
-	color: #f1f1f1;
 }
