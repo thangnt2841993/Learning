@@ -2,7 +2,9 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title></title>
+	<title>BTVN</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href='http://fonts.googleapis.com/css?family=Playfair+Display:400italic' rel='stylesheet' type='text/css'>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
@@ -11,17 +13,19 @@
 <body>
 
 	<header>
-		<nav class="navbar navbar-fixed-top" role="navigation">
-	        <div class="menu">
+		<nav class="navbar navbar-inverse " role="navigation">
+	        <div class="menu container">
 	            <!-- Brand and toggle get grouped for better mobile display -->
 	            <div class="navbar-header">
-	                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
-	                    <i class="fa fa-bars fa-3x"></i>
+	                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu">
+		                <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
 	                </button>
 	                <a class="navbar-brand" href="#"><img src="image/icon/logo.png" height="30px" width="80px" /></a>
 	            </div>
 	            <!-- Collect the nav links, forms, and other content for toggling -->
-	            <div class="collapse navbar-collapse navbar-right" id="navbar-collapse">
+	            <div class="collapse navbar-collapse navbar-right" id="menu">
 	                <ul class="nav navbar-nav">
 	                    <li>
 	                        <a href="#">Home</a>
@@ -45,35 +49,61 @@
 	                        <a href="#"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></a>
 	                    </li>
 	                </ul>
-	            </div> <!-- /.navbar-collapse -->
-	        </div> <!-- /.container -->
+	            </div>
+	        </div>
 	    </nav>
 
 	 	<div id="myCarousel" class="carousel slide" data-ride="carousel">
-	 		<!-- Wrapper for slides -->
 		    <div class="carousel-inner" role="listbox">
 		      	<div class="item active">
-		        <img src="image/background/bg1.jpg" alt="">
-			        <div class="carousel-caption slide">
-			          <img src="image/icon/icon-slide1.png">
-			          <p>The atmosphere in Chania has a touch of Florence and Venice.</p>
+		        <img src="image/background/slide1/bg1.jpg" alt=""/>
+			        <div class="carousel-caption " align="center"/>
+				        <div class="slide-background">
+				        	<img src="image/background/slide1/slide1-icon-1.png" alt="" />
+				        </div>
+				        <div class="slide-background">
+				         	<img src="image/background/slide1/slide1-char.png" alt=""/>	
+				        </div>
+				        <div class="slide-background">
+				        	<img src="image/background/slide1/slide1-icon-2.png" alt=""/>
+				        </div> 
+				          <p style="font-family: Playfair Display;">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live.</p>
+				        <div class="slide-background">
+				        	<img src="image/background/slide1/slide1-icon-3.png" alt="" />
+				        </div>
 			        </div>
 		      	</div>
 
 			    <div class="item">
-			        <img src="image/background/bg2.jpg" alt="">
-			        <div class="carousel-caption">
-			          <img src="image/icon/icon-slide2.png">
-			          <p>The atmosphere in Chania has a touch of Florence and Venice.</p>
-			        </div>
+			       	<img src="image/background/slide2/bg2.jpg" alt=""/>
+			        <div class="carousel-caption" align="center"/>
+				        <div class="slide-background">
+				        	<img src="image/background/slide2/slide2-icon-1.png" alt="" />
+				        </div>
+				        <div class="slide-background">
+				         	<img src="image/background/slide2/slide2-char.png" alt=""/>	
+				        </div>
+				        <div class="slide-background">
+				        	<img src="image/background/slide2/slide1-icon-2.png" alt=""/>
+				        </div> 
+				          <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live.</p>
+			    	</div>
 			    </div>
 		    
 			    <div class="item">
-			        <img src="image/background/bg3.jpg" alt="">
-				        <div class="carousel-caption">
-				          	<img src="image/icon/icon-slide3.png">
-				          	<p>Beatiful flowers in Kolymbari, Crete.</p>
+			        <img src="image/background/slide3/bg3.jpg" alt=""/>
+			        <div class="carousel-caption" align="center"/>
+				        <div class="slide-background">
+				        	<img src="image/background/slide3/slide3-icon-1.png" alt="" />
 				        </div>
+				        <div class="slide-background">
+				         	<img src="image/background/slide3/slide3-char.png" alt=""/>	
+				        </div>
+				        <div class="slide-background">
+				        	<img src="image/background/slide3/slide3-icon-2.png" alt=""/>
+				        </div> 
+				          	<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live.</p>
+				    </div>
 			    </div>
 			</div>
 	  	</div>
@@ -83,7 +113,7 @@
 			<section class="one">
 				<div class="row">
 					<div class="col-xs-12">
-						<h1 class="text-center">The world offers itself to your imagination</h1>
+						<h1 class="text-center" style="font-family: playfaildisplay; font-style:italic; font-size:3em;">".The world offers itself to your imagination."</h1>
 						<div class="space text-center">
 							<img src="image/icon/icon-main.png">
 						</div>
@@ -94,19 +124,19 @@
 								<img src="image/main/phto1.jpg">
 								<h3>photograpy</h3>
 								<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarks grove right at the coast of the Semantics</p>
-								<a href="#">read more <span class="glyphicon glyphicon-arrow-right"></span></a>
+								<a href="#">Read more <span class="icon">&rarr;</span></a>
 							</div>
 							<div class="col-xs-12 col-sm-4">
 								<img src="image/main/phto2.jpg">
 								<h3>Traveling</h3>
 								<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarks grove right at the coast of the Semantics</p>
-								<a href="#">read more <span class="glyphicon glyphicon-arrow-right"></span></a>
+								<a href="#">Read more <span class="icon">&rarr;</span></a>
 							</div>
 							<div class="col-xs-12 col-sm-4">
 								<img src="image/main/phto3.jpg">
 								<h3>About Us</h3>
 								<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarks grove right at the coast of the Semantics</p>
-								<a href="#">read more <span class="glyphicon glyphicon-arrow-right"></span></a>
+								<a href="#">Read more <span class="icon">&rarr;</span></a>
 							</div>
 						</div>
 					</div>
@@ -155,6 +185,9 @@
 					<div class="col-xs-12 col-sm-6">
 						<div>
 							<a href="#"><img src="image/icon/icon41.png"></a>
+							<header>
+								<h4>photograpy</h4>
+							</header>
 							<p>
 								A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth. 
 							</p>
@@ -162,6 +195,9 @@
 						<div class="clearfix"></div>
 						<div>
 							<a href="#"><img src="image/icon/icon42.png"></a>
+							<header>
+								<h4>Illustration</h4>
+							</header>
 							<p>
 								A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth. 
 							</p>
@@ -169,6 +205,9 @@
 						<div class="clearfix"></div>
 						<div>
 							<a href="#"><img src="image/icon/icon43.png"></a>
+								<header>
+									<h4>Branding</h4>
+								</header>
 							<p>
 								A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth. 
 							</p>
@@ -178,6 +217,9 @@
 					<div class="col-xs-12 col-sm-6">
 						<div>
 							<a href="#"><img src="image/icon/icon46.png"></a>
+								<header>
+									<h4>Web Design</h4>
+								</header>
 							<p>
 								A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth. 
 							</p>
@@ -185,6 +227,9 @@
 						<div class="clearfix"></div>
 						<div>
 							<a href="#"><img src="image/icon/icon45.png"></a>
+								<header>
+									<h4>Web Develope</h4>
+								</header>
 							<p>
 								A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth. 
 							</p>
@@ -192,6 +237,9 @@
 						<div class="clearfix"></div>
 						<div>
 							<a href="#"><img src="image/icon/icon44.png"></a>
+								<header>
+									<h4>Marketing</h4>
+								</header>
 							<p>
 								A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth. 
 							</p>
@@ -206,25 +254,45 @@
 			<section class="five">
 				<section class="container">
 					<div class="row">
+						<div class="col-xs-12 col-md-6" align="center">
+							<h2>newsletter sign-up</h2>
+							<h4>You can subscribe here to get out latest news</h4>
+						</div>
+						<div class="col-xs-12 col-md-6 form">
 							<form action="" method="POST" role="form" class="form-inline">
-								<label for="" class="col-xs-6"><h2>newsletter sign-up</h2>
-													<h4>you can.........</h4></label>
-								<input type="text" class="form-control col-xs-6" id="" placeholder="Input field">
-								<button type="submit" class="btn btn-warning">Submit</button>
+								<label for="" class="sr-only"></label>
+								<input type="text" class="form-control" id="" placeholder="Enter your e-mail..." size="30">
+								<button type="submit" class="btn btn-danger">Submit</button>
 							</form>
+						</div>	
 					</div>
 				</section>
 			</section>
-
-			<div>
-				<div class="container">
+			<section class="five-one">
+				<section class="container">
 					<div class="row">
-						<div class="col-xs-12">
-							<a href="#"><img src="image/main/brandlogo_02.png" width="900px"></a>
+						<div class="col-xs-6 col-md-2">
+							<a href="#"><img src="image/main/brand-1.png"></a>
+						</div>
+						<div class="col-xs-6 col-md-2">
+							<a href="#"><img src="image/main/brand-2.png"></a>
+						</div>
+						<div class="col-xs-6 col-md-2">
+							<a href="#"><img src="image/main/brand-3.png"></a>
+						</div>
+
+						<div class="col-xs-6 col-md-2">
+							<a href="#"><img src="image/main/brand-4.png"></a>
+						</div>
+						<div class="col-xs-6 col-md-2">
+							<a href="#"><img src="image/main/brand-5.png"></a>
+						</div>
+						<div class="col-xs-6 col-md-2">
+							<a href="#"><img src="image/main/brand-6.png"></a>
 						</div>
 					</div>
-				</div>
-			</div>
+				</section>
+			</section>
 		</section>
 
 		<section class="six">
@@ -232,27 +300,27 @@
 				<div class="row">
 					<div class="col-xs-12 text-center">
 						<h1>BLOG UPDATES</h1>
-						<p>Latest updates from the blog</p>
+						<p class="six-p">Latest updates from the blog</p>
 					</div>
 				</div>
 				<div class="row">
 					<div class="col-xs-12 col-sm-4 text-center">
 						<img src="image/main/blog1.jpg">
-						<p class="lead">PLEASURE WITHOUT CONSCIENCE</p>
-						<p>October 20, 2015 / admin / Traveling</p>
-						<a href="#">view post <span class="glyphicon glyphicon-arrow-right"></span></a>
+						<a href="#"><p class="lead">PLEASURE WITHOUT CONSCIENCE</p></a>
+						<p class="p">October 20, 2015 / admin / Traveling</p>
+						<a href="#">View post <span class="icon">&rarr;</span></a>
 					</div>
 					<div class="col-xs-12 col-sm-4 text-center">
 						<img src="image/main/blog2.jpg">
-						<p class="lead">PLEASURE WITHOUT CONSCIENCE</p>
-						<p>October 20, 2015 / admin / Traveling</p>
-						<a href="#">view post <span class="glyphicon glyphicon-arrow-right"></span></a>
+						<a href="#"><p class="lead">PLEASURE WITHOUT CONSCIENCE</p></a>
+						<p class="p">October 20, 2015 / admin / Traveling</p>
+						<a href="#">View post <span class="icon">&rarr;</span></a>
 					</div>
 					<div class="col-xs-12 col-sm-4 text-center">
 						<img src="image/main/blog3.jpg">
-						<p class="lead">PLEASURE WITHOUT CONSCIENCE</p>
-						<p>October 20, 2015 / admin / Traveling</p>
-						<a href="#">view post <span class="glyphicon glyphicon-arrow-right"></span></a>
+						<a href="#"><p class="lead">PLEASURE WITHOUT CONSCIENCE</p></a>
+						<p class="p">October 20, 2015 / admin / Traveling</p>
+						<a href="#">View post <span class="icon">&rarr;</span></a>
 					</div>
 				</div>
 			</section>
@@ -260,14 +328,14 @@
 	</section>
 	<footer>
 		<div align="center" id="top">
-			<a href="#"><img src="image/footer/fb.png" class=""></a>
-			<a href="#"><img src="image/footer/flow.png"></a>
-			<a href="#"><img src="image/footer/phto.png"></a>
-			<a href="#"><img src="image/footer/what.png"></a>
+			<a href="#"><img src="image/footer/fb.png" class="img-circle" alt="" /></a>
+			<a href="#"><img src="image/footer/tw.png" class="img-circle" alt=""/></a>
+			<a href="#"><img src="image/footer/photo.png" class="img-circle" alt="" /></a>
+			<a href="#"><img src="image/footer/what.png" class="img-circle" alt="" /></a>
 		</div>
 		<div align="center" id="footer">
 			<p>14 Tottenham Court Road, London, England / (102) 3456 789 / info@thememove.com</p>
-			<p>Copyright © 2015 ThemeMove</p>
+			<p class="footer">Copyright © 2015 ThemeMove</p>
 		</div>
 	</footer>
 </body>
