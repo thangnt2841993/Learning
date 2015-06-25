@@ -1,0 +1,313 @@
+/*header*/
+body{
+	background: #FFFFFF;
+}
+.glyphicon{
+	font-size: 14px;
+}
+
+.slide-background{
+	padding: 40px 0px;
+}
+.slide-bottom{
+
+}
+.row{
+	padding:20px 0px;
+}
+.carousel-caption .slide-bottom{
+	padding-top: 200px;
+}
+.nav a{
+	text-transform: uppercase;
+	color:white;
+	font-size: 14px;
+}
+.navbar{
+	margin: 0px;
+	border-radius: 0px;
+}
+.menu ul li{
+	padding-top: 10px;
+	font-family:"proxima nova" serif;
+	font-style: bold;
+}
+.menu{
+	padding:0px 0px -10px 0px;
+	text-align: center;
+}
+/*contenr*/
+.one h1 {
+	padding: 50px 0px;
+}
+.one{
+	padding:30px 0px;
+}
+.one a{
+	margin-bottom: 20px;
+}
+.col-one h3{
+	text-transform: uppercase;
+	font-size: 18px;
+	font-family: "proxima nova" serif;
+}
+.col-one p{
+	font-family: "proxima nova";
+}
+.col-one a{
+	color: red;
+	font-family: "proxima nova";
+	text-decoration: none;
+}
+.icon{
+	font-size: 18px;
+}
+.space{
+	padding-bottom: 50px;
+}
+.col-one img{
+	/*height: 200px;*/
+	width: 370px;
+}
+.tow{
+	background: url("../image/main/banner1.jpg");
+	background-size: "cover";
+}
+.tow h1{
+	font-family: "playfaildisplay";
+	font-style: italic;
+	font-size: 40px;
+	padding: 120px 0px;
+	color: white;
+}
+.there {
+	padding: 50px 0px;
+	border-bottom: 1px solid #eeeeee;
+}
+.there h1{
+	font-family: "proxima nova" serif;
+	font-weight: bold;
+}
+.there h4{
+	font-family:"playfaildisplay";
+	font-style:italic;
+	font-size: 24px;
+	padding-bottom: 20px;
+}
+.there p{
+	font-family: "proxima nova";
+	font-size:14px;
+	padding-bottom: 20px;
+}
+.there .row img{
+	width: 370px;
+}
+.there img{
+	padding: 10px 0px;
+}
+.four header h4{
+	text-transform:uppercase;
+	font-size: 14px;
+	padding: 10px 0px;
+	font-family: "proxima nova" serif;
+	font-weight: bold;
+}
+.four{
+	padding: 50px 0px;
+}
+.four p{
+	font-family: "proxima nova";
+}
+.four img{
+	float: left;
+	padding: 0px;
+	margin: 5px;
+	border: 1px solid #eeeeee;
+}
+.four img:hover{
+	background: #b46d70;
+}
+.five{
+	padding: 100px 0px;
+	background:url("../image/main/banner2.jpg");
+	background-size: "cover";
+}
+.form{
+	padding-top: 40px;
+}
+.form input{
+	border-radius: 0px;
+	background: transparent;
+	border: 1px solid #ffffff;
+	color: #ffffff;
+}
+.five-one{
+	padding:50px 0px;
+}
+.five h2{
+	color: #ffffff;
+	text-transform: uppercase;
+	font-family: "proxima nova" serif;
+}
+.five h4{
+	font-family: "playfaildisplay";
+	font-style: italic;
+	color:#f1f1f1;
+}
+.five .form button{
+	color: white;
+	font-family: "proxima nova";
+}
+.sub{
+	border-radius: 0px;
+}
+.five-one a img{
+	padding: 5px 0px;
+}
+.six{
+	padding-bottom: 50px 0px;
+}
+.six h1{
+	font-family: "proxima nova" serif;
+	font-weight:bolder;
+}
+.lead{
+	padding-top: 10px;
+	font-size: 18px;
+}
+.six a{
+	margin-top:10px;
+	color: red;
+	font-family: "proxima nova" serif;
+}
+.six a p{
+	color: black;
+}
+.six a:hover,.six a p:hover{
+	color: red;
+	text-decoration: none;
+}
+.p{
+	font-style:italic;
+	font-family:"playfaildisplay";
+	margin-top: -20px;
+}
+.six-p{
+	font-family: "playfaildisplay";
+	font-style: italic;
+	font-size: 18px;
+}
+.six img{
+	width: 370px;
+}
+/*footer*/
+footer{
+	padding-top: 10px;
+	background: url("../image/footer/footer.jpg") center ;
+	height: 270px;
+}
+footer img:hover{
+	background: #B46D70;
+}
+footer img{
+	background-color: #ffffff;
+}
+footer #top{
+	height: 70px;
+}
+footer #footer{
+	height: 100px;
+	padding-top: 50px;
+	color: #f1f1f1;
+}
+footer p{
+	font-family: "playfaildisplay" serif;
+	font-size: 14px;
+}
+.footer{
+	color: #555555 ;
+}
+.social {
+    margin: 0;
+    padding: 0;
+}
+
+.social ul {
+    margin: 0;
+    padding: 5px;
+}
+
+.social ul li {
+    margin: 2px;
+    list-style: none outside none;
+    display: inline-block;
+}
+
+.social i {
+    width: 40px;
+    height: 40px;
+    color: #212121;
+    background-color: #ffffff;
+    font-size: 22px;
+    text-align:center;
+    padding-top: 12px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -o-border-radius: 50%;
+    transition: all ease 0.3s;
+    -moz-transition: all ease 0.3s;
+    -webkit-transition: all ease 0.3s;
+    -o-transition: all ease 0.3s;
+    -ms-transition: all ease 0.3s;
+}
+.social i:hover {
+    text-decoration: none;
+    transition: all ease 0.3s;
+    -moz-transition: all ease 0.3s;
+    -webkit-transition: all ease 0.3s;
+    -o-transition: all ease 0.3s;
+    -ms-transition: all ease 0.3s;
+}
+
+.social .fa-facebook:hover {
+    background: #b46d70;
+}
+
+.social .fa-twitter:hover {
+    background: #b46d70;
+}
+
+.social .fa-instagram:hover {
+    background: #b46d70;
+}
+
+.social .fa-pinterest:hover {
+    background: #b46d70;
+}
+.thumbnai {
+    position:relative;
+    overflow:hidden;
+}
+ 
+.caption {
+    position:absolute;
+    top:0;
+    right:0;
+    background:rgba(0, 0, 0, 0);
+    width:100%;
+    height:100%;
+    padding: 40% 0% 0% 0%;
+    display: none;
+    color:#fff !important;
+    z-index:2;
+}
+.caption h3{
+	font-family: "proxima nova" serif;
+	font-weight:bold;
+}
+.caption p{
+	font-family: "proxima nova";
+	font-style: italic;
+	text-transform: capitalize;
+}
