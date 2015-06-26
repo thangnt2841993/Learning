@@ -1,4 +1,39 @@
 /*header*/
+@font-face {
+    font-family: 'proxima_nova_rgbold';
+    src: url('../fonts/mark_simonson_-_proxima_nova_bold.eot');
+    src: url('../fonts/mark_simonson_-_proxima_nova_bold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/mark_simonson_-_proxima_nova_bold.woff2') format('woff2'),
+         url('../fonts/mark_simonson_-_proxima_nova_bold.woff') format('woff'),
+         url('../fonts/mark_simonson_-_proxima_nova_bold.ttf') format('truetype'),
+         url('../fonts/mark_simonson_-_proxima_nova_bold.svg#proxima_nova_rgbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'proxima_nova_ltsemibold';
+    src: url('../fonts/mark_simonson_-_proxima_nova_semibold.eot');
+    src: url('../fonts/mark_simonson_-_proxima_nova_semibold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/mark_simonson_-_proxima_nova_semibold.woff2') format('woff2'),
+         url('../fonts/mark_simonson_-_proxima_nova_semibold.woff') format('woff'),
+         url('../fonts/mark_simonson_-_proxima_nova_semibold.ttf') format('truetype'),
+         url('../fonts/mark_simonson_-_proxima_nova_semibold.svg#proxima_nova_ltsemibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'proxima_nova_rgregular';
+    src: url('../fonts/mark_simonson_-_proxima_nova_regular.eot');
+    src: url('../fonts/mark_simonson_-_proxima_nova_regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/mark_simonson_-_proxima_nova_regular.woff2') format('woff2'),
+         url('../fonts/mark_simonson_-_proxima_nova_regular.woff') format('woff'),
+         url('../fonts/mark_simonson_-_proxima_nova_regular.ttf') format('truetype'),
+         url('../fonts/mark_simonson_-_proxima_nova_regular.svg#proxima_nova_rgregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
 body{
 	background: #FFFFFF;
 }
@@ -21,7 +56,9 @@ body{
 .nav a{
 	text-transform: uppercase;
 	color:white;
-	font-size: 14px;
+	font-size: 12px;
+	font-family: 'proxima_nova_rgbold';
+	font-weight: ;
 }
 .navbar{
 	margin: 0px;
@@ -29,7 +66,6 @@ body{
 }
 .menu ul li{
 	padding-top: 10px;
-	font-family:"proxima nova" serif;
 	font-style: bold;
 }
 .menu{
@@ -37,8 +73,10 @@ body{
 	text-align: center;
 }
 /*contenr*/
-.one h1 {
+.one .char {
 	padding: 50px 0px;
+	font-family: "playfair display";
+	font-style:italic;
 }
 .one{
 	padding:30px 0px;
@@ -49,18 +87,19 @@ body{
 .col-one h3{
 	text-transform: uppercase;
 	font-size: 18px;
-	font-family: "proxima nova" serif;
+	font-family: 'proxima_nova_ltsemibold';
 }
 .col-one p{
-	font-family: "proxima nova";
+	font-family: "proxima_nova_rgregular";
 }
 .col-one a{
-	color: red;
-	font-family: "proxima nova";
+	color: #c79294;
+	font-family: "proxima_nova_rgregular";
 	text-decoration: none;
 }
 .icon{
 	font-size: 18px;
+	color: #c79294;
 }
 .space{
 	padding-bottom: 50px;
@@ -71,10 +110,10 @@ body{
 }
 .tow{
 	background: url("../image/main/banner1.jpg");
-	background-size: "cover";
+	background-size: cover;
 }
 .tow h1{
-	font-family: "playfaildisplay";
+	font-family: "playfair display";
 	font-style: italic;
 	font-size: 40px;
 	padding: 120px 0px;
@@ -85,17 +124,17 @@ body{
 	border-bottom: 1px solid #eeeeee;
 }
 .there h1{
-	font-family: "proxima nova" serif;
-	font-weight: bold;
+	font-family: "proxima_nova_rgbold";
+	font-size: 36px;
 }
 .there h4{
-	font-family:"playfaildisplay";
+	font-family:"playfair display";
 	font-style:italic;
-	font-size: 24px;
+	font-size: 18px;
 	padding-bottom: 20px;
 }
 .there p{
-	font-family: "proxima nova";
+	font-family: "proxima_nova_rgregular";
 	font-size:14px;
 	padding-bottom: 20px;
 }
@@ -108,20 +147,21 @@ body{
 .four header h4{
 	text-transform:uppercase;
 	font-size: 14px;
-	padding: 10px 0px;
-	font-family: "proxima nova" serif;
-	font-weight: bold;
+	padding: 0px 0px;
+	font-family: "proxima_nova_rgbold";
+	text-align: left;
 }
 .four{
 	padding: 50px 0px;
 }
 .four p{
-	font-family: "proxima nova";
+	font-family: "proxima_nova_rgregular";
+	text-align: left;
 }
 .four img{
 	float: left;
 	padding: 0px;
-	margin: 5px;
+	margin: 0px 20px;
 	border: 1px solid #eeeeee;
 }
 .four img:hover{
@@ -130,7 +170,7 @@ body{
 .five{
 	padding: 100px 0px;
 	background:url("../image/main/banner2.jpg");
-	background-size: "cover";
+	background-size: cover;
 }
 .form{
 	padding-top: 40px;
@@ -147,16 +187,19 @@ body{
 .five h2{
 	color: #ffffff;
 	text-transform: uppercase;
-	font-family: "proxima nova" serif;
+	font-family: "proxima_nova_rgbold";
+	text-align: left;
 }
 .five h4{
-	font-family: "playfaildisplay";
+	font-family: "playfair display";
 	font-style: italic;
 	color:#f1f1f1;
+	font-size: 14px;
+	text-align: left;
 }
 .five .form button{
 	color: white;
-	font-family: "proxima nova";
+	font-family: "proxima_nova_rgbold";
 }
 .sub{
 	border-radius: 0px;
@@ -168,8 +211,7 @@ body{
 	padding-bottom: 50px 0px;
 }
 .six h1{
-	font-family: "proxima nova" serif;
-	font-weight:bolder;
+	font-family: "proxima_nova_rgbold";
 }
 .lead{
 	padding-top: 10px;
@@ -177,25 +219,27 @@ body{
 }
 .six a{
 	margin-top:10px;
-	color: red;
-	font-family: "proxima nova" serif;
+	color: #c79294;
+	font-family: "proxima_nova_rgregular";
 }
 .six a p{
 	color: black;
+	font-family: 'proxima_nova_ltsemibold';
 }
-.six a:hover,.six a p:hover{
-	color: red;
+.six a:hover,
+.six a p:hover{
+	color: #c79294;
 	text-decoration: none;
 }
 .p{
 	font-style:italic;
-	font-family:"playfaildisplay";
+	font-family:"playfair display";
 	margin-top: -20px;
 }
 .six-p{
-	font-family: "playfaildisplay";
+	font-family: "playfair display";
 	font-style: italic;
-	font-size: 18px;
+	font-size: 16px;
 }
 .six img{
 	width: 370px;
@@ -219,9 +263,10 @@ footer #footer{
 	height: 100px;
 	padding-top: 50px;
 	color: #f1f1f1;
+	font-family: 'proxima_nova_rgregular'
 }
 footer p{
-	font-family: "playfaildisplay" serif;
+	font-family: "playfair display" serif;
 	font-size: 14px;
 }
 .footer{
@@ -287,8 +332,8 @@ footer p{
 }
 .thumbnai {
     position:relative;
-    overflow:hidden;
-}
+    /*overflow:hidden;
+*/}
  
 .caption {
     position:absolute;
@@ -307,7 +352,7 @@ footer p{
 	font-weight:bold;
 }
 .caption p{
-	font-family: "proxima nova";
+	font-family: "playfair display";
 	font-style: italic;
 	text-transform: capitalize;
 }
