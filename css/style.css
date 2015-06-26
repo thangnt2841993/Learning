@@ -64,6 +64,10 @@ body{
 	margin: 0px;
 	border-radius: 0px;
 }
+.carousel-caption p{
+	line-height: 20px;
+	letter-spacing: 1px;
+}
 .menu ul li{
 	padding-top: 10px;
 	font-style: bold;
@@ -77,6 +81,7 @@ body{
 	padding: 50px 0px;
 	font-family: "playfair display";
 	font-style:italic;
+	letter-spacing: 1px;
 }
 .one{
 	padding:30px 0px;
@@ -91,6 +96,8 @@ body{
 }
 .col-one p{
 	font-family: "proxima_nova_rgregular";
+	letter-spacing: 0.8px;
+	line-height: 150%;
 }
 .col-one a{
 	color: #c79294;
@@ -118,6 +125,7 @@ body{
 	font-size: 40px;
 	padding: 120px 0px;
 	color: white;
+	letter-spacing:1px;
 }
 .there {
 	padding: 50px 0px;
@@ -126,6 +134,7 @@ body{
 .there h1{
 	font-family: "proxima_nova_rgbold";
 	font-size: 36px;
+	letter-spacing: 1px;
 }
 .there h4{
 	font-family:"playfair display";
@@ -137,6 +146,8 @@ body{
 	font-family: "proxima_nova_rgregular";
 	font-size:14px;
 	padding-bottom: 20px;
+	line-height: 150%;
+	letter-spacing: 0.7px;
 }
 .there .row img{
 	width: 370px;
@@ -157,6 +168,8 @@ body{
 .four p{
 	font-family: "proxima_nova_rgregular";
 	text-align: left;
+	letter-spacing: 0.7px;
+	line-height: 150%;
 }
 .four img{
 	float: left;
@@ -187,8 +200,9 @@ body{
 .five h2{
 	color: #ffffff;
 	text-transform: uppercase;
-	font-family: "proxima_nova_rgbold";
+	font-family: "proxima_nova_ltsemibold";
 	text-align: left;
+	letter-spacing: 5px;
 }
 .five h4{
 	font-family: "playfair display";
@@ -211,11 +225,13 @@ body{
 	padding-bottom: 50px 0px;
 }
 .six h1{
-	font-family: "proxima_nova_rgbold";
+	font-family: "proxima_nova_ltsemibold";
+	letter-spacing: 2px;
 }
 .lead{
 	padding-top: 10px;
 	font-size: 18px;
+	letter-spacing: 0.7px;
 }
 .six a{
 	margin-top:10px;
@@ -235,6 +251,7 @@ body{
 	font-style:italic;
 	font-family:"playfair display";
 	margin-top: -20px;
+	letter-spacing: 0.8px;
 }
 .six-p{
 	font-family: "playfair display";
@@ -263,7 +280,8 @@ footer #footer{
 	height: 100px;
 	padding-top: 50px;
 	color: #f1f1f1;
-	font-family: 'proxima_nova_rgregular'
+	font-family: 'proxima_nova_rgregular';
+	letter-spacing:1.5px;
 }
 footer p{
 	font-family: "playfair display" serif;
