@@ -10,8 +10,10 @@
 	<!--load jquery-->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
-	<!--load font-awesome-->
+	<!--load font-->
 	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/helper.css">
+	<link rel="stylesheet" type="text/css" href="css/pe-icon-7-stroke.css">
 	<!--load css-->
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
@@ -26,7 +28,7 @@
 				        <span class="icon-bar"></span>
 				        <span class="icon-bar"></span>
 	                </button>
-	                <a class="navbar-brand navbar-right" href="#"><img src="image/icon/logo.png"  width="80px" /></a>
+	                <a class="navbar-brand navbar-right" href="#"><img src="image/icon/logo.png"  width="100px" /></a>
 	            </div>
 				<!--right-navbar-->
 	            <div class="collapse navbar-collapse navbar-right" id="menu">
@@ -259,8 +261,8 @@
 			<section class="four">
 				<div class="row">
 					<div class="col-xs-12 col-md-6" align="center">
-						<div>
-							<a href="#"><img src="image/icon/icon41.png"/></a>
+						<div class="Features">
+							<a href="#"><span class="Features-icon pe-7s-camera"></span></a>
 							<header>
 								<h4 class="head">photograpy</h4>
 							</header>
@@ -269,8 +271,8 @@
 							</p>
 						</div>
 						<div class="clearfix"></div>
-						<div>
-							<a href="#"><img src="image/icon/icon42.png"/></a>
+						<div class="Features">
+							<a href="#"><span class="Features-icon pe-7s-coffee"></span></a>
 							<header>
 								<h4 class="head">Illustration</h4>
 							</header>
@@ -279,8 +281,8 @@
 							</p>
 						</div>
 						<div class="clearfix"></div>
-						<div>
-							<a href="#"><img src="image/icon/icon43.png"/></a>
+						<div class="Features">
+							<a href="#"><span class="Features-icon pe-7s-mouse"></span></a>
 								<header>
 									<h4 class="head">Branding</h4>
 								</header>
@@ -291,8 +293,8 @@
 						<div class="clearfix"></div>
 					</div>
 					<div class="col-xs-12 col-md-6" align="center">
-						<div>
-							<a href="#"><img src="image/icon/icon46.png"/></a>
+						<div class="Features">
+							<a href="#"><span class="Features-icon pe-7s-bicycle"></span></a>
 								<header>
 									<h4 class="head">Web Design</h4>
 								</header>
@@ -301,8 +303,8 @@
 							</p>
 						</div>
 						<div class="clearfix"></div>
-						<div>
-							<a href="#"><img src="image/icon/icon45.png"/></a>
+						<div class="Features">
+							<a href="#"><span class="Features-icon pe-7s-display1"></span></a>
 								<header>
 									<h4 class="head">Web Develope</h4>
 								</header>
@@ -311,8 +313,8 @@
 							</p>
 						</div>
 						<div class="clearfix"></div>
-						<div>
-							<a href="#"><img src="image/icon/icon44.png"/></a>
+						<div class="Features">
+							<a href="#"><span class="Features-icon pe-7s-graph1"></span></a>
 								<header>
 									<h4 class="head">Marketing</h4>
 								</header>
@@ -338,8 +340,8 @@
 						<div class="col-xs-12 col-md-6 form" align="left">
 							<form action="" method="POST" role="form" class="form-inline">
 								<label for="" class="sr-only"></label>
-								<input type="text" class="form-control" id="" placeholder="Enter your e-mail..." size="50">
-								<button type="submit" class="btn btn-danger sub">Submit</button>
+								<input type="text" class="" id="" placeholder="    Enter your e-mail..." size="50" />
+								<button type="submit" class="btn sub">Submit</button>
 							</form>
 						</div>	
 					</div>
@@ -430,8 +432,6 @@
 					TopFixMenu.show();
 				}}
 			)
-		})
-		$( document ).ready(function() {
 		    $('.thumbnai').hover(
 		        function(){
 		            $(this).find('.caption').slideDown(500); //.fadeIn(250)
