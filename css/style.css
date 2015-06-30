@@ -36,15 +36,36 @@
 body{
 	background: #FFFFFF;
 }
+#logo{
+	max-width: 80%;
+	height: auto;
+}
 .glyphicon{
 	font-size: 14px;
 }
-
+.icon-slide{
+	max-width: 15%;
+	height: auto;
+}
+.icon-slide2{
+	max-width: 40%;
+	height: auto;
+}
+.img-slide{
+	max-width: 50%;
+	height: auto;
+}
 .slide-background{
 	padding: 40px 0px;
 }
 .slide-bottom{
 
+}
+.carousel-caption .row .char{
+	font-family: 'playfair display';
+	font-style: italic;
+	letter-spacing: 0px;
+	line-height: 2px;
 }
 .carousel-caption .row{
 	padding: 10px 0px;
@@ -111,6 +132,9 @@ body{
 	font-family: "proxima_nova_rgregular";
 	text-decoration: none;
 }
+.col-one .about{
+	margin-bottom: 20px;
+}
 .icon{
 	font-size: 18px;
 	color: #c79294;
@@ -120,10 +144,10 @@ body{
 }
 .col-one img{
 	/*height: 200px;*/
-	width: 370px;
+	max-width: 100%;
 }
 .tow{
-	background: url("../image/main/banner1.jpg");
+	background: url("../images/main/banner1.jpg");
 	background-size: cover;
 }
 .tow h1{
@@ -196,7 +220,7 @@ body{
 }
 .five{
 	padding: 100px 0px;
-	background:url("../image/main/banner2.jpg");
+	background:url("../images/main/banner2.jpg");
 	background-size: cover;
 }
 .form{
@@ -228,7 +252,7 @@ body{
 }
 .five .form button{
 	color: white;
-	font-family: "proxima_nova_rgbold";
+	font-family: "proxima_nova_ltsemibold";
 }
 .sub{
 	border-radius: 0px;
@@ -239,12 +263,15 @@ body{
 }
 .six{
 	border-top: 1px solid #eeeeee;
-	padding-bottom: 80px;
+	padding-bottom: 60px;
 	padding-top: 50px;
 }
 .six h1{
 	font-family: "proxima_nova_ltsemibold";
 	letter-spacing: 2px;
+}
+.six .updates{
+	margin-bottom:20px; 
 }
 .lead{
 	padding-top: 10px;
@@ -282,7 +309,7 @@ body{
 /*footer*/
 footer{
 	padding-top: 10px;
-	background: url("../image/footer/footer.jpg") center ;
+	background: url("../images/footer/footer.jpg") center ;
 	height: 270px;
 }
 footer img:hover{
