@@ -186,6 +186,12 @@ body{
 .there img{
 	padding: 15px 0px;
 }
+.there .img-small{
+	padding-top:25%; 
+}
+.there .img-big{
+	padding-top: 50%;
+}
 .four header h4{
 	text-transform:uppercase;
 	font-size: 14px;
