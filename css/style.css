@@ -37,7 +37,7 @@ body{
 	background: #FFFFFF;
 }
 #logo{
-	max-width: 80%;
+	max-width: 95%;
 	height: auto;
 }
 .glyphicon{
@@ -52,7 +52,7 @@ body{
 	height: auto;
 }
 .img-slide{
-	max-width: 50%;
+	max-width: 60%;
 	height: auto;
 }
 .slide-background{
@@ -66,9 +66,10 @@ body{
 	font-style: italic;
 	letter-spacing: 0px;
 	line-height: 2px;
+	font-size: 18px;
 }
 .carousel-caption .row{
-	padding: 10px 0px;
+	padding: 25px 0px;
 }
 .row{
 	padding:20px 0px;
@@ -97,8 +98,7 @@ body{
 	letter-spacing: 1px;
 }
 .menu ul li{
-	padding-top: 10px;
-	font-style: bold;
+	padding-top: 30px;
 }
 .menu{
 	padding:0px 0px -10px 0px;
@@ -110,6 +110,7 @@ body{
 	font-family: "Playfair Display";
 	font-style:italic;
 	letter-spacing: 1px;
+	font-size: 48px;
 }
 .one{
 	padding:30px 0px;
@@ -119,13 +120,14 @@ body{
 }
 .col-one h3{
 	text-transform: uppercase;
-	font-size: 18px;
+	font-size: 17px;
 	font-family: 'proxima_nova_ltsemibold';
 }
 .col-one p{
 	font-family: "proxima_nova_rgregular";
 	letter-spacing: 1px;
 	line-height: 150%;
+	color: #a4a4a4;
 }
 .col-one a{
 	color: #c79294;
@@ -138,6 +140,10 @@ body{
 .icon{
 	font-size: 18px;
 	color: #c79294;
+}
+.space img{
+	max-width: 15%;
+	height: auto;
 }
 .space{
 	padding-bottom: 70px;
@@ -153,7 +159,7 @@ body{
 .tow h1{
 	font-family: "playfair display";
 	font-style: italic;
-	font-size: 40px;
+	font-size: 48px;
 	padding: 120px 0px;
 	color: white;
 	letter-spacing:1px;
@@ -164,21 +170,22 @@ body{
 }
 .there h1{
 	font-family: "proxima_nova_rgbold";
-	font-size: 36px;
+	font-size: 48px;
 	letter-spacing: 1px;
 }
 .there h4{
 	font-family:"playfair display";
 	font-style:italic;
-	font-size: 18px;
+	font-size: 20px;
 	padding-bottom: 20px;
 }
-.there p{
+.there .our p{
 	font-family: "proxima_nova_rgregular";
 	font-size:14px;
 	padding-bottom: 20px;
 	line-height: 150%;
 	letter-spacing: 0.8px;
+	color: #a4a4a4;
 }
 .there .row img{
 	width: 360px;
@@ -192,12 +199,13 @@ body{
 .there .img-big{
 	padding-top: 50%;
 }
-.four header h4{
+.four .Features header h4{
 	text-transform:uppercase;
-	font-size: 14px;
+	font-size: 16px;
 	padding: 0px 0px;
 	font-family: "proxima_nova_rgbold";
 	text-align: left;
+	letter-spacing: 1px;
 }
 .four .Features-icon{
 	font-size: 48px;
@@ -210,11 +218,12 @@ body{
 .four{
 	padding: 50px 0px;
 }
-.four p{
+.four .Features p{
 	font-family: "proxima_nova_rgregular";
 	text-align: left;
 	letter-spacing: 0.7px;
 	line-height: 150%;
+	color: #969696;
 }
 .four .Features{
 	margin: 50px 0px;
@@ -237,7 +246,7 @@ body{
 	background: transparent;
 	border: 1px solid #ffffff;
 	color: #ffffff;
-	height: 35px;
+	height: 45px;
 }
 .five-one{
 	padding:20px 0px;
@@ -247,7 +256,8 @@ body{
 	text-transform: uppercase;
 	font-family: "proxima_nova_ltsemibold";
 	text-align: left;
-	letter-spacing: 5px;
+	letter-spacing: 4px;
+	font-size: 36px;
 }
 .five h4{
 	font-family: "playfair display";
@@ -255,6 +265,7 @@ body{
 	color:#f1f1f1;
 	font-size: 14px;
 	text-align: left;
+	letter-spacing: 1px;
 }
 .five .form button{
 	color: white;
@@ -263,6 +274,8 @@ body{
 .sub{
 	border-radius: 0px;
 	background: #b46d70;
+	padding: 12px 20px;
+	margin-left: 5px;
 }
 .five-one a img{
 	padding: 5px 0px;
@@ -275,14 +288,16 @@ body{
 .six h1{
 	font-family: "proxima_nova_ltsemibold";
 	letter-spacing: 2px;
+	font-size: 48px;
 }
 .six .updates{
 	margin-bottom:20px; 
 }
 .lead{
 	padding-top: 10px;
-	font-size: 18px;
+	font-size: 16px;
 	letter-spacing: 0.7px;
+	color: #1f1f1f;
 }
 .six a{
 	margin-top:10px;
@@ -303,11 +318,12 @@ body{
 	font-family:"playfair display";
 	margin-top: -20px;
 	letter-spacing: 0.8px;
+	color: #a6a6a6;
 }
 .six-p{
 	font-family: "playfair display";
 	font-style: italic;
-	font-size: 16px;
+	font-size: 20px;
 }
 .six img{
 	width: 360px;
@@ -421,7 +437,6 @@ footer p{
 }
 .caption h3{
 	font-family: "proxima_nova_ltsemibold";
-	font-weight:bold;
 }
 .caption p{
 	font-family: "playfair display";
