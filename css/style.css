@@ -55,27 +55,20 @@ body{
 	max-width: 60%;
 	height: auto;
 }
-.slide-background{
-	padding: 40px 0px;
-}
-.slide-bottom{
-
-}
-.carousel-caption .row .char{
+.row .char{
 	font-family: 'playfair display';
 	font-style: italic;
-	letter-spacing: 0px;
-	line-height: 2px;
+	line-height: 10px;
 	font-size: 18px;
 }
 .carousel-caption .row{
-	padding: 25px 0px;
+	padding: 2% 0%;
 }
 .row{
 	padding:20px 0px;
 }
 .slide-bottom{
-	padding-top: 200px;
+	padding-top: 25%;
 }
 .nav li a{
 	text-transform: uppercase;
