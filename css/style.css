@@ -69,7 +69,8 @@ body{
 	font-family: 'playfair display';
 	font-style: italic;
 	font-size: 18px;
-	line-height: 30px;
+	line-height: 28px;
+	letter-spacing: 20;
 }
 .carousel-caption .row{
 	padding: 2% 0%;
@@ -85,7 +86,12 @@ body{
 	color:white;
 	font-size: 12px;
 	font-family: 'proxima_nova_rgbold';
-	letter-spacing: 1px;
+	letter-spacing: 30;
+	line-height: 20.8px;
+}
+.nav li a:focus{
+	outline:0;
+	background-color: transparent;
 }
 .nav li a:hover{
 	background:rgba(0, 0, 0, 0);
@@ -109,10 +115,11 @@ body{
 
 /*one*/
 .one .char {
-	padding: 40px 0px;
+	padding: 30px 0px 40px 0px;
 	font-family: "Playfair Display";
 	font-style:italic;
-	letter-spacing: 1px;
+	letter-spacing: 20;
+	line-height: 67.2px;
 	font-size: 48px;
 }
 .one{
@@ -131,13 +138,16 @@ body{
 }
 .col-one .about p{
 	font-family: "proxima_nova_rgregular";
-	font-size: 14px;
-	letter-spacing: 1px;
-	line-height: 160%;
+	font-size: 15px;
+	letter-spacing: 30;
+	line-height: 24px;
 	color: #a4a4a4;
 	padding-bottom: 5px;
 }
 .col-one .about a{
+	font-size: 15px;
+	line-height: 24px;
+	letter-spacing: 30;
 	color: #c79294;
 	font-family: "proxima_nova_rgregular";
 	text-decoration: none;
@@ -162,7 +172,7 @@ body{
 	max-width: 100%;
 }
 .tow{
-	background: url("../images/main/banner1.jpg");
+	background: url("../images/main/banner1.jpg") center ;
 	height: 500px;
 	background-size: cover;
     background-attachment: fixed;
@@ -173,27 +183,32 @@ body{
 	font-size: 48px;
 	padding: 16% 0%;
 	color: white;
-	letter-spacing:1px;
+	line-height: 67.2px;
+	letter-spacing:20;
 }
 .there {
-	padding: 50px 0px 65px 0px;
+	padding: 40px 0px 65px 0px;
 	border-bottom: 1px solid #eeeeee;
 }
 .there .our h1{
 	font-family: "proxima_nova_ltsemibold";
 	font-size: 48px;
-	letter-spacing: 1px;
+	line-height: 76.8px;
+	letter-spacing: 50;
 }
 .there .our h4{
 	font-family:"playfair display";
 	font-style:italic;
 	font-size: 20px;
-	margin-top: -2px;
+	margin-top: -20px;
+	margin-bottom: 0px;
 	padding-bottom: 30px;
+	line-height: 24px;
+	letter-spacing: 30;
 }
 .there .our p{
 	font-family: "proxima_nova_rgregular";
-	font-size:14px;
+	font-size:15px;
 	line-height: 24px;
 	letter-spacing: 30;
 	color: #a4a4a4;
@@ -205,19 +220,13 @@ body{
 .there img{
 	padding: 15px 0px;
 }
-.there .img-small{
-	padding-top:20%; 
-}
-.there .img-big{
-	padding-top: 55%;
-}
 .four .features header h4{
 	text-transform:uppercase;
 	font-size: 16px;
-	padding: 0px 0px;
 	font-family: "proxima_nova_rgbold";
 	text-align: left;
-	letter-spacing: 1px;
+	letter-spacing: 50;
+	line-height: 25.6px;
 }
 .four .features-icon{
 	font-size: 48px;
@@ -228,22 +237,17 @@ body{
 	color:#888888;
 }
 .four{
-	padding: 40px 0px;
+	padding: 40px 0px 50px 0px;
 }
 .four .features p{
-	padding-top: 5px;
 	font-family: "proxima_nova_rgregular";
 	text-align: left;
-	letter-spacing: 0.7px;
-	line-height: 170%;
+	letter-spacing: 30;
+	line-height: 24px;
 	color: #969696;
 }
 .four .features{
 	margin: 40px 0px;
-	padding: 0px 40px;
-}
-.features .features-info{
-	padding-left: 50px;
 }
 .four .features .features-icon:hover{
 	background: #b46d70;
@@ -272,27 +276,29 @@ body{
 .five-one{
 	padding:30px 0px;
 }
-.five-info #info{
-	padding-left: 10%;
-}
 .five h2{
 	color: #ffffff;
 	text-transform: uppercase;
 	font-family: "proxima_nova_ltsemibold";
 	text-align: left;
-	letter-spacing: 4px;
+	letter-spacing: 50;
+	line-height: 57.6px;
 	font-size: 36px;
 }
 .five h4{
 	font-family: "playfair display";
 	font-style: italic;
 	color:#f1f1f1;
-	font-size: 14px;
+	font-size: 16px;
 	text-align: left;
-	letter-spacing: 1px;
-	margin-top: -5px;
+	letter-spacing: 20;
+	line-height: 22.4px;
+	margin-top: -15px;
 }
 .five .form button{
+	font-size: 14px;
+	line-height: 22.4px;
+	letter-spacing: 50;
 	color: white;
 	font-family: "proxima_nova_ltsemibold";
 	text-transform: uppercase;
@@ -300,7 +306,7 @@ body{
 .sub{
 	border-radius: 0px;
 	background: #b46d70;
-	padding: 14px 20px;
+	padding: 13px 20px;
 	margin-left: -5px;
 }
 .five-one img{
@@ -313,9 +319,9 @@ body{
 }
 .six h1{
 	font-family: "proxima_nova_ltsemibold";
-	letter-spacing: 2px;
+	letter-spacing: 50;
+	line-height: 76.8px;
 	font-size: 48px;
-	padding-top: 10px;
 }
 .six .updates{
 	margin-bottom:20px; 
@@ -323,13 +329,18 @@ body{
 .updates .lead{
 	padding: 20px 0px 5px 0px; 
 	font-size: 16px;
-	letter-spacing: 0.7px;
+	letter-spacing:50;
+	line-height: 25.6px;
 	color: #1f1f1f;
 }
 .six a{
 	margin-top:10px;
 	color: #c79294;
 	font-family: "proxima_nova_rgregular";
+	font-size: 15px;
+	line-height: 24px;
+	letter-spacing: 30;
+
 }
 .six a p{
 	color: black;
@@ -343,15 +354,19 @@ body{
 .updates .p{
 	font-style:italic;
 	font-family:"playfair display";
+	font-size: 14px;
 	margin-top: -20px;
 	padding-bottom: 5px;
-	letter-spacing: 0.8px;
+	letter-spacing:20;
+	line-height: 19.6px;
 	color: #a6a6a6;
 }
 .six-p{
 	font-family: "playfair display";
 	font-style: italic;
-	margin-top: -5px;
+	line-height: 28px;
+	letter-spacing: 20;
+	margin-top: -20px;
 	font-size: 20px;
 	padding-bottom: 20px;
 }
@@ -377,20 +392,21 @@ footer #top{
 footer #footer{
 	height: 230px;
 	padding-top: 60px;
-	color: #f1f1f1;
-	font-family: 'proxima_nova_rgregular';
-	letter-spacing:1.5px;
 }
-footer p{
-	font-family: "playfair display" serif;
-	font-size: 15px;
+footer #footer p{
+	color: #c7c7c7;
+	font-family: 'proxima_nova_rgregular';
+	font-size: 16px;
 	padding-top: 15px;
-	padding-bottom: 0px;
+	letter-spacing:30;
+	line-height: 25.6px;
 }
 #footer .footer{
 	padding-top: 25px;
 	color: #555555 ;
-	font-size: 14px;
+	font-size: 16px;
+	line-height: 24px;
+	letter-spacing: 30;
 }
 .social {
     margin: 0;
@@ -409,13 +425,13 @@ footer p{
 }
 
 .social i {
-    width: 40px;
-    height: 40px;
+    width: 44px;
+    height: 44px;
     color: #212121;
     background-color: #ffffff;
     font-size: 22px;
     text-align:center;
-    padding-top: 12px;
+    line-height: 44px;
     border-radius: 50%;
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
@@ -456,7 +472,6 @@ footer p{
     overflow:hidden;
     max-width: 360px;
 }
- 
 .caption {
     position:absolute;
     top:0%;
@@ -470,6 +485,13 @@ footer p{
     color:#fff !important;
     z-index:2; 
     margin: 15px 0px;
+}
+.mask{
+	position: absolute;
+	top:50%;
+
+	width: 100%;
+	transform: translateY(-50%);
 }
 .caption h3{
 	font-family: "proxima_nova_ltsemibold";
@@ -491,7 +513,8 @@ input::-moz-placeholder {
 		background: #000;
 	}
 	.menu ul li{
-		height: 10px;
+		padding-top: 0px;
+		/*height: 10px;*/
 		border-bottom:1px solid #fff;
 	}
 	.slide{
