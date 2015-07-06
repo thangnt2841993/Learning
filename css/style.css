@@ -1,4 +1,4 @@
-/*header*/
+/*add font*/
 @font-face {
     font-family: 'proxima_nova_rgbold';
     src: url('../fonts/mark_simonson_-_proxima_nova_bold.eot');
@@ -33,12 +33,21 @@
     font-weight: normal;
     font-style: normal;
 }
+
+/*head*/
 body{
 	background: #FFFFFF;
+}
+.button-menu{
+	background: #ffffff;
+}
+.icon-bar{
+	background: #000000;
 }
 #logo{
 	max-width: 95%;
 	height: auto;
+	padding-top: 8px;
 }
 .glyphicon{
 	font-size: 14px;
@@ -52,14 +61,15 @@ body{
 	height: auto;
 }
 .img-slide{
-	max-width: 60%;
+	max-width: 70%;
 	height: auto;
+	margin-bottom: -20px !important;
 }
-.row .char{
+.char-slide p{
 	font-family: 'playfair display';
 	font-style: italic;
-	line-height: 10px;
 	font-size: 18px;
+	line-height: 30px;
 }
 .carousel-caption .row{
 	padding: 2% 0%;
@@ -87,19 +97,19 @@ body{
 	border-radius: 0px;
 }
 .carousel-caption p{
-	line-height: 20px;
 	letter-spacing: 1px;
 }
 .menu ul li{
-	padding-top: 30px;
+	padding-top: 42px;
 }
 .menu{
-	padding:0px 0px -10px 0px;
 	text-align: center;
 }
 /*contenr*/
+
+/*one*/
 .one .char {
-	padding: 50px 0px;
+	padding: 40px 0px;
 	font-family: "Playfair Display";
 	font-style:italic;
 	letter-spacing: 1px;
@@ -111,18 +121,23 @@ body{
 .one a{
 	margin-bottom: 20px;
 }
-.col-one h3{
+.col-one .about h3{
 	text-transform: uppercase;
-	font-size: 17px;
+	font-size: 16px;
 	font-family: 'proxima_nova_ltsemibold';
+	padding: 7px 0px 0px 0px ;
+	letter-spacing: 50;
+	line-height: 25.6px;
 }
-.col-one p{
+.col-one .about p{
 	font-family: "proxima_nova_rgregular";
+	font-size: 14px;
 	letter-spacing: 1px;
-	line-height: 150%;
+	line-height: 160%;
 	color: #a4a4a4;
+	padding-bottom: 5px;
 }
-.col-one a{
+.col-one .about a{
 	color: #c79294;
 	font-family: "proxima_nova_rgregular";
 	text-decoration: none;
@@ -139,7 +154,8 @@ body{
 	height: auto;
 }
 .space{
-	padding-bottom: 70px;
+	padding-top:25px ;
+	padding-bottom: 85px;
 }
 .col-one img{
 	/*height: 200px;*/
@@ -147,38 +163,41 @@ body{
 }
 .tow{
 	background: url("../images/main/banner1.jpg");
+	height: 500px;
 	background-size: cover;
+    background-attachment: fixed;
 }
 .tow h1{
 	font-family: "playfair display";
 	font-style: italic;
 	font-size: 48px;
-	padding: 120px 0px;
+	padding: 16% 0%;
 	color: white;
 	letter-spacing:1px;
 }
 .there {
-	padding: 50px 0px;
+	padding: 50px 0px 65px 0px;
 	border-bottom: 1px solid #eeeeee;
 }
-.there h1{
-	font-family: "proxima_nova_rgbold";
+.there .our h1{
+	font-family: "proxima_nova_ltsemibold";
 	font-size: 48px;
 	letter-spacing: 1px;
 }
-.there h4{
+.there .our h4{
 	font-family:"playfair display";
 	font-style:italic;
 	font-size: 20px;
-	padding-bottom: 20px;
+	margin-top: -2px;
+	padding-bottom: 30px;
 }
 .there .our p{
 	font-family: "proxima_nova_rgregular";
 	font-size:14px;
-	padding-bottom: 20px;
-	line-height: 150%;
-	letter-spacing: 0.8px;
+	line-height: 24px;
+	letter-spacing: 30;
 	color: #a4a4a4;
+	margin-bottom: 5px;
 }
 .there .row img{
 	width: 360px;
@@ -187,12 +206,12 @@ body{
 	padding: 15px 0px;
 }
 .there .img-small{
-	padding-top:25%; 
+	padding-top:20%; 
 }
 .there .img-big{
-	padding-top: 50%;
+	padding-top: 55%;
 }
-.four .Features header h4{
+.four .features header h4{
 	text-transform:uppercase;
 	font-size: 16px;
 	padding: 0px 0px;
@@ -200,49 +219,61 @@ body{
 	text-align: left;
 	letter-spacing: 1px;
 }
-.four .Features-icon{
+.four .features-icon{
 	font-size: 48px;
 	float: left;
-	padding: 45px 25px;
-	margin: 0px 20px;
+	padding: 40px 23px;
+	margin-right: 20px;
 	border: 1px solid #eeeeee;
 	color:#888888;
 }
 .four{
-	padding: 50px 0px;
+	padding: 40px 0px;
 }
-.four .Features p{
+.four .features p{
+	padding-top: 5px;
 	font-family: "proxima_nova_rgregular";
 	text-align: left;
 	letter-spacing: 0.7px;
-	line-height: 150%;
+	line-height: 170%;
 	color: #969696;
 }
-.four .Features{
-	margin: 50px 0px;
-	padding: 0px 20px;
+.four .features{
+	margin: 40px 0px;
+	padding: 0px 40px;
 }
-.four .Features .Features-icon:hover{
+.features .features-info{
+	padding-left: 50px;
+}
+.four .features .features-icon:hover{
 	background: #b46d70;
 	color: #ffffff;
+	transition: all ease 1s;
 }
 .five{
 	padding: 100px 0px;
 	background:url("../images/main/banner2.jpg");
 	background-size: cover;
+	height: 400px;
 }
-.form{
-	padding-top: 40px;
+.five-info{
+	padding-top: 4%;
+}
+.five-info .form{
+	padding-top: 15px;
 }
 .form input{
 	border-radius: 0px;
 	background: transparent;
 	border: 1px solid #ffffff;
 	color: #ffffff;
-	height: 45px;
+	height: 50px;
 }
 .five-one{
-	padding:20px 0px;
+	padding:30px 0px;
+}
+.five-info #info{
+	padding-left: 10%;
 }
 .five h2{
 	color: #ffffff;
@@ -259,18 +290,20 @@ body{
 	font-size: 14px;
 	text-align: left;
 	letter-spacing: 1px;
+	margin-top: -5px;
 }
 .five .form button{
 	color: white;
 	font-family: "proxima_nova_ltsemibold";
+	text-transform: uppercase;
 }
 .sub{
 	border-radius: 0px;
 	background: #b46d70;
-	padding: 12px 20px;
-	margin-left: 5px;
+	padding: 14px 20px;
+	margin-left: -5px;
 }
-.five-one a img{
+.five-one img{
 	padding: 5px 0px;
 }
 .six{
@@ -282,12 +315,13 @@ body{
 	font-family: "proxima_nova_ltsemibold";
 	letter-spacing: 2px;
 	font-size: 48px;
+	padding-top: 10px;
 }
 .six .updates{
 	margin-bottom:20px; 
 }
-.lead{
-	padding-top: 10px;
+.updates .lead{
+	padding: 20px 0px 5px 0px; 
 	font-size: 16px;
 	letter-spacing: 0.7px;
 	color: #1f1f1f;
@@ -306,26 +340,29 @@ body{
 	color: #c79294;
 	text-decoration: none;
 }
-.p{
+.updates .p{
 	font-style:italic;
 	font-family:"playfair display";
 	margin-top: -20px;
+	padding-bottom: 5px;
 	letter-spacing: 0.8px;
 	color: #a6a6a6;
 }
 .six-p{
 	font-family: "playfair display";
 	font-style: italic;
+	margin-top: -5px;
 	font-size: 20px;
+	padding-bottom: 20px;
 }
 .six img{
-	width: 360px;
+	max-width: 100%;
 }
 /*footer*/
 footer{
 	padding-top: 10px;
 	background: url("../images/footer/footer.jpg") center ;
-	height: 270px;
+	height: 370px;
 }
 footer img:hover{
 	background: #B46D70;
@@ -334,22 +371,26 @@ footer img{
 	background-color: #ffffff;
 }
 footer #top{
-	height: 70px;
+	padding-top:30px; 
+	height: 130px;
 }
 footer #footer{
-	height: 100px;
-	padding-top: 50px;
+	height: 230px;
+	padding-top: 60px;
 	color: #f1f1f1;
 	font-family: 'proxima_nova_rgregular';
 	letter-spacing:1.5px;
 }
 footer p{
 	font-family: "playfair display" serif;
-	font-size: 14px;
-	padding: 10px 0px;
+	font-size: 15px;
+	padding-top: 15px;
+	padding-bottom: 0px;
 }
-.footer{
+#footer .footer{
+	padding-top: 25px;
 	color: #555555 ;
+	font-size: 14px;
 }
 .social {
     margin: 0;
@@ -392,6 +433,7 @@ footer p{
     -webkit-transition: all ease 0.3s;
     -o-transition: all ease 0.3s;
     -ms-transition: all ease 0.3s;
+    color:#fff;
 }
 
 .social .fa-facebook:hover {
@@ -412,6 +454,7 @@ footer p{
 .thumbnai{
     position:relative;
     overflow:hidden;
+    max-width: 360px;
 }
  
 .caption {
@@ -437,6 +480,33 @@ footer p{
 	text-transform: capitalize;
 }
 input::-moz-placeholder {
-	font-size: 14px; color: #ffffff;
+	font-size: 16px;
+	color: white;
+	z-index: 2;
 	font-family: 'proxima_nova_rgregular';
 }
+@media (max-width: 767px){
+	.menu,
+	.menu ul{
+		background: #000;
+	}
+	.menu ul li{
+		height: 10px;
+		border-bottom:1px solid #fff;
+	}
+	.slide{
+		padding-top: 50px;
+	}
+	.menu #logo{
+		margin-top: -20px;
+		max-width: 60%;
+		height: auto;
+	}
+	.carousel-caption .char-slide p{
+		font-size: 12px;
+		line-height: 12px;
+	}
+}
+@media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) { ... }
+@media (min-width: @screen-md-min) and (max-width: @screen-md-max) { ... }
+@media (min-width: @screen-lg-min) { ... }
